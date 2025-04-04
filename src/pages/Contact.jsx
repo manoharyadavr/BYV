@@ -34,7 +34,7 @@ const Contact = () => {
     setError(null);
 
     try {
-      await axios.post("http://localhost:5000/api/contact", formData);
+      await axios.post("https://byvbackend.onrender.com/api/contact", formData);
       setIsSubmitted(true);
       setFormData({ name: "", email: "", contactNumber: "", message: "" });
 
