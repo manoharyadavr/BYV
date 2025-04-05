@@ -223,7 +223,7 @@ const Contact = () => {
         <h2 className="text-4xl font-bold">Start Your Digital Journey Today</h2>
         <p className="text-gray-400 mt-2">We are here to help you succeed online.</p>
         <motion.a
-          href="mailto:contact@byv.com"
+          href="mailto:builyourvision@gmail.com"
           className="inline-block mt-6 px-6 py-3 bg-white text-black font-bold rounded-lg"
           whileHover={{ scale: 1.05 }}
         >
