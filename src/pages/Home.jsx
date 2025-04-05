@@ -37,7 +37,7 @@ const testimonials = [
     designation: "Founder",
     company: "InnovateX",
     logo: "https://images.pexels.com/photos/834863/pexels-photo-834863.jpeg?auto=compress&cs=tinysrgb&w=600",
-    message: "BYV's web development services exceeded our expectations. Highly recommended!",
+    message: "BYV's web development services are Amazing. Highly recommended!",
     rating: 5,
   },
 ];
@@ -113,7 +113,7 @@ const Home = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           {/* Left - Text */}
-          <div className="text-gray-300 text-base leading-relaxed md:text-lg text-justify">
+          <div className="text-gray-300 text-base leading-relaxed md:text text-justify">
             <p>
               <strong>At BYV – Build Your Vision</strong>, we specialize in crafting exceptional digital experiences
               that empower businesses to thrive online. As a premium website solutions provider, we go beyond just
@@ -252,14 +252,14 @@ const Home = () => {
 
       {/* ✅ Contact Section */}
       <motion.div
-        className="py-16 text-center bg-gray-900 text-white"
+        className="py-16 text-center px-8 bg-gray-900 text-white"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.7 }}
       >
-        <h2 className="text-4xl font-bold">Get in Touch</h2>
-        <p className="mt-4 text-gray-400 text-lg max-w-xl mx-auto">
+        <h2 className="text-4xl  font-bold">Get in Touch</h2>
+        <p className="mt-4  text-gray-400 text-lg max-w-xl text-justify mx-auto">
           Have a project in mind? Let's build something great together. Whether you're launching a new brand,
           upgrading your website, or creating something totally custom — we’re here to turn your ideas into
           impact.

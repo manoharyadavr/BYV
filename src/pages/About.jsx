@@ -64,7 +64,7 @@ const About = () => {
             </div>
 
             {/* Right - Text */}
-            <div className="text-gray-300 text-base leading-relaxed md:text-lg text-justify">
+            <div className="text-gray-300 text-base leading-relaxed md:text text-justify">
             <p>
               <strong>At BYV – Build Your Vision</strong>, we specialize in crafting exceptional digital experiences
               that empower businesses to thrive online. As a premium website solutions provider, we go beyond just
@@ -107,7 +107,7 @@ const About = () => {
         <motion.div className="mt-12 bg-[#1A1A1A] p-6 rounded-lg shadow-md border border-gray-700" variants={fadeIn}>
           <h2 className="text-2xl font-bold text-center">Why Choose Us?</h2>
 
-          <div className="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+          <div className="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  gap-6">
             {[
               "Custom Websites Tailored to Your Business",
               "Fast & Responsive Designs",
@@ -120,7 +120,7 @@ const About = () => {
             ].map((point, index) => (
               <div key={index} className="flex items-center space-x-2">
                 <CheckCircle className="text-green-500 w-6 h-6" />
-                <p className="text-gray-300">{point}</p>
+                <p className="text-gray-300 ">{point}</p>
               </div>
             ))}
           </div>

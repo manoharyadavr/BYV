@@ -56,7 +56,7 @@ const Navbar = () => {
       >
         {/* Mobile Sidebar */}
         <div
-          className={`fixed top-0 right-0 h-full w-64 bg-white text-black shadow-lg transition-transform transform ${
+          className={`fixed top-0 right-0 h-full  bg-zinc-900 text-gray-100 w-64 shadow-lg transition-transform transform ${
             isMobileMenuOpen ? "translate-x-0" : "translate-x-full"
           }`}
           onClick={(e) => e.stopPropagation()}
