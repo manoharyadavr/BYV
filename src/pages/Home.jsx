@@ -188,7 +188,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* ✅ Testimonials Section */}
+      {/* ✅ Testimonials Section 
       <motion.div
         className="py-16 bg-black text-white relative"
         initial="hidden"
@@ -249,7 +249,7 @@ const Home = () => {
           </button>
         </div>
       </motion.div>
-
+*/}
       {/* ✅ Contact Section */}
       <motion.div
         className="py-16 text-center px-8 bg-gray-900 text-white"
