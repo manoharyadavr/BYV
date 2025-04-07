@@ -145,7 +145,7 @@ const Home = () => {
 
       {/* ✅ About Section */}
       <motion.div
-        className="bg-[#1A1A1A] px-6 md:px-20 py-12 rounded-lg shadow-md border border-gray-700 mt-16"
+        className="bg-[#1A1A1A] px-6 md:px-20 py-12 rounded-lg shadow-md border border-gray-700"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.2 }}
@@ -294,7 +294,7 @@ const Home = () => {
 */}
       {/* ✅ Contact Section */}
       <motion.div
-        className="bg-neutral-900 px-6 md:px-20 py-12 rounded-lg shadow-md border border-gray-700 mt-16 text-white text-center"
+        className="bg-neutral-900 px-6 md:px-20 py-12 rounded-lg shadow-md border border-gray-700 text-white text-center"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
