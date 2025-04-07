@@ -78,16 +78,16 @@ const Home = () => {
         transition={{ duration: 1 }}
         
       >
-{/*         <img
+        <img
           src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
           alt="Hero"
-          className="absolute w-full h-full object-cover opacity-40"
-        /> */}
-         <img
+          className="absolute w-full h-full object-cover opacity-70"
+        />
+{/*          <img
           src="https://img.freepik.com/free-photo/html-css-collage-concept-with-person_23-2150062008.jpg?t=st=1744001505~exp=1744005105~hmac=db6a777e1463d6ee413558d593f289d5dbc97346e801473244d5a7993edb5605&w=1380"
           alt="Hero"
           className="absolute w-full h-full object-cover opacity-90"
-        />
+        /> */}
         <div className="relative z-10">
           <h1 className="text-5xl font-extrabold tracking-wide text-white">
             Build Your Vision.
