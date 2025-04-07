@@ -39,7 +39,7 @@ const services = [
       "Marketing Materials & UI Graphics",
       "Creative & Engaging Visuals",
     ],
-    image: "https://img.freepik.com/free-photo/woman-photographer-using-touch-screen-computer_482257-19488.jpg?t=st=1743792223~exp=1743795823~hmac=5610e85c43d22c9351d014731cb0e2b9f4a12390b564534f799e641201d94cfa&w=1380",
+    image: "/images/graphicdesigning.jpg",
   },
   {
     title: "Existing Website Updation",
@@ -48,7 +48,7 @@ const services = [
       "Modern UI Redesign",
       "New Features & Bug Fixes",
     ],
-    image: "https://img.freepik.com/free-photo/homepage-seen-computer-screen_23-2149416723.jpg?t=st=1743791520~exp=1743795120~hmac=563ad0a645e5139e65723e2a60369c5468a9ee21a9f8d69c8abbef617a7dcc87&w=1380",
+    image: "/images/webredesign.jpg",
   },
 ];
 
