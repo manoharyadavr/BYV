@@ -151,6 +151,7 @@ const Footer = () => {
           <p className="mb-2">171 Mahindra Luxuria</p>
           <p className="mb-2">Pocharam, Sagareddy</p>
           <p className="mb-2">502293, Telangana</p>
+          <p className="mb-2">+91 9398776311</p>
           <p className="mb-2">Email: Builyourvision@gmail.com</p>
         </div>
 
