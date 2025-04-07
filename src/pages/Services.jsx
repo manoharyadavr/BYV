@@ -30,7 +30,7 @@ const services = [
       "Payment Gateway Integration",
       "Product & Order Management",
     ],
-    image: "https://img.freepik.com/free-photo/showing-cart-trolley-shopping-online-sign-graphic_53876-133967.jpg?t=st=1743792122~exp=1743795722~hmac=c6ce5d3377768bbe1127bcbdd38c8c7912af08e925fe6d19eb0268b9c11ebe8e&w=1380",
+    image: "/images/ecommerce.jpg",
   },
   {
     title: "Graphic Designing",
