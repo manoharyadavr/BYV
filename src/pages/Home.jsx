@@ -83,7 +83,6 @@ const Home = () => {
           className="absolute w-full h-full object-cover opacity-40"
         /> */}
          <img
-          src=" <img
           src="https://img.freepik.com/free-photo/html-css-collage-concept-with-person_23-2150062008.jpg?t=st=1744001505~exp=1744005105~hmac=db6a777e1463d6ee413558d593f289d5dbc97346e801473244d5a7993edb5605&w=1380"
           alt="Hero"
           className="absolute w-full h-full object-cover opacity-40"
