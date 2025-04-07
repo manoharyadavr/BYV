@@ -116,6 +116,7 @@ const Home = () => {
               Enquire Now..!
             </motion.button>
           </a> */}
+            <div className="flex justify-center">
             <a
             href="https://wa.me/919876543210"
             target="_blank"
@@ -138,7 +139,7 @@ const Home = () => {
             </motion.button>
           </a>
 
-
+          </div>
         </div>
       </motion.div>
 
