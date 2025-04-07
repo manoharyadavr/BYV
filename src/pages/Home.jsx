@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { FaWhatsapp } from "react-icons/fa";
+// import { FaWhatsapp } from "react-icons/fa";
 import "swiper/css";
 
 
@@ -104,7 +104,7 @@ const Home = () => {
               Explore Services
             </motion.button>
           </Link> */}
-          <a href="https://wa.me/919876543210"
+{/*           <a href="https://wa.me/919876543210"
             target="_blank"
             rel="noopener noreferrer">
             <motion.button
@@ -115,7 +115,29 @@ const Home = () => {
               <FaWhatsapp className="text-2xl" />
               Enquire Now..!
             </motion.button>
+          </a> */}
+            <a
+            href="https://wa.me/919876543210"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <motion.button
+              className="mt-6 px-8 py-3 bg-green-600 text-white font-semibold rounded-md shadow-lg hover:bg-green-700 transition flex items-center gap-3"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.98 }}
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+                fill="currentColor"
+                className="w-6 h-6"
+              >
+                <path d="M380.9 97.1C339 55.2 283.1 32 224.5 32 120.4 32 32 120.6 32 224.7c0 39.6 10.3 78.3 29.8 112.4L32 480l146.2-38.5c32.7 17.8 69.3 27.3 106.3 27.3h.1c104.1 0 192.5-88.6 192.5-192.7 0-58.6-23.2-114.5-65.1-156.4zM224.5 426c-31 0-61.4-8.4-87.8-24.2l-6.3-3.7-86.6 22.8 23-84.2-4.1-6.6c-18.7-30.5-28.6-65.6-28.6-101.5 0-102.4 83.3-185.7 185.7-185.7 49.6 0 96.2 19.3 131.2 54.4 34.9 35 54.2 81.6 54.1 131.1 0 102.5-83.3 185.6-185.6 185.6zm101.1-138.5c-5.5-2.8-32.6-16.1-37.7-17.9-5.1-1.9-8.8-2.8-12.5 2.8s-14.3 17.9-17.5 21.6c-3.2 3.7-6.5 4.2-12 .9-5.5-2.8-23.2-8.6-44.2-27.4-16.3-14.6-27.3-32.6-30.5-38.1s-.3-8.5 2.4-11.3c2.5-2.6 5.5-6.8 8.2-10.2 2.7-3.4 3.6-5.7 5.5-9.5 1.8-3.7.9-7-0.4-9.9s-12.5-30.1-17.1-41.2c-4.5-10.9-9.2-9.4-12.5-9.6-3.2-.2-7-.2-10.8-.2s-9.9 1.4-15 7c-5.1 5.6-19.6 19.1-19.6 46.5s20.1 53.9 22.9 57.7c2.8 3.7 39.5 60.4 95.8 84.6 13.4 5.8 23.8 9.2 31.9 11.8 13.4 4.2 25.6 3.6 35.3 2.2 10.8-1.6 32.6-13.3 37.2-26.2 4.6-12.8 4.6-23.7 3.2-26.2-1.3-2.5-5-4-10.5-6.9z" />
+              </svg>
+              Enquire Now
+            </motion.button>
           </a>
+
 
         </div>
       </motion.div>
