@@ -181,6 +181,9 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="flex items-center hover:text-gray-400 space-x-2 transition"
             >
+                      <FontAwesomeIcon icon={faLinkedin} className="w-6 h-6" />
+              <span>LinkedIn</span>
+            </a>
           </div>
         </div>
 
