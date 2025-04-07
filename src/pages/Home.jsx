@@ -87,7 +87,7 @@ const Home = () => {
             Build Your Vision.
           </h1>
           <p className="text-lg text-gray-400 mt-4">
-            I will build your vision from the scratch.
+            We will build your vision from the scratch.
           </p>
           <Link to="/services">
             <motion.button
