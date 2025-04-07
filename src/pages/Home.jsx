@@ -294,7 +294,7 @@ const Home = () => {
 */}
       {/* ✅ Contact Section */}
       <motion.div
-        className="bg-[#1A1A1A] py-16 text-center px-8 bg-gray-700 text-white"
+        className="bg-[#1A1A1A] px-6 md:px-20 py-12 rounded-lg shadow-md border border-gray-700 mt-16 text-white"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
