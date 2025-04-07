@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import { FaWhatsapp } from "react-icons/fa";
 import "swiper/css";
 
 
@@ -94,7 +95,7 @@ const Home = () => {
           <p className="text-lg text-gray-300 mt-4">
             We will build your vision from the scratch.
           </p>
-          <Link to="/services">
+{/*           <Link to="/services">
             <motion.button
               className="mt-6 px-8 py-3 bg-gray-900 text-white font-semibold rounded-md shadow-lg hover:bg-gray-700 transition"
               whileHover={{ scale: 1.05 }}
@@ -102,7 +103,20 @@ const Home = () => {
             >
               Explore Services
             </motion.button>
-          </Link>
+          </Link> */}
+          <a href="https://wa.me/919876543210"
+            target="_blank"
+            rel="noopener noreferrer">
+            <motion.button
+              className="mt-6 px-8 py-3 bg-green-600 text-white font-semibold rounded-md shadow-lg hover:bg-green-700 transition flex items-center gap-3"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.98 }}
+            >
+              <FaWhatsapp className="text-2xl" />
+              Enquire Now..!
+            </motion.button>
+          </a>
+
         </div>
       </motion.div>
 
