@@ -118,7 +118,7 @@ const Home = () => {
           </a> */}
             <div className="flex justify-center">
             <a
-            href="https://wa.me/919876543210"
+            href="https://wa.me/919398776311"
             target="_blank"
             rel="noopener noreferrer"
           >
