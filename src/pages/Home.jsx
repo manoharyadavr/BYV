@@ -123,7 +123,7 @@ const Home = () => {
             rel="noopener noreferrer"
           >
             <motion.button
-              className="mt-6 px-8 py-3 bg-green-600 text-white font-semibold rounded-md shadow-lg hover:bg-green-700 transition flex items-center gap-3"
+              className="mt-6 px-8 py-3 bg-green-900 text-white font-semibold rounded-md shadow-lg hover:bg-green-700 transition flex items-center gap-3"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.98 }}
             >
