@@ -197,7 +197,7 @@ const Footer = () => {
 
       {/* Footer Text */}
       <div className="text-center mt-4 border-t border-gray-700 pt-4">
-        <p>&copy; 2024 BYV. All rights reserved.</p>
+        <p>&copy; 2025 BYV. All rights reserved.</p>
       </div>
     </footer>
   );
